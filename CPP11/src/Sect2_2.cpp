@@ -6,10 +6,32 @@
  */
 
 #include <iostream>
+#include <complex>
 
 namespace Sect2_2
 {
-	int main() { std::cout << "pretty cool!\n"; return 0; }
+	constexpr double square(double a)
+	{
+		return a*a;
+	}
+
+	int main()
+	{
+		std::complex<double> z {1.1,2.3};
+
+		auto b = true;
+		if(b) std::cout << "yay\n";
+
+		std::cout << "pretty cool!\n";
+
+		const int namedconst {12};
+		std::cout << namedconst << "\n";
+
+		constexpr double a1 = 1.4*square(namedconst);
+		std::cout << a1 << "\n";
+
+		return 0;
+	}
 }
 
 
