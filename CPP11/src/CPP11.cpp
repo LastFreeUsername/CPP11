@@ -9,9 +9,9 @@
 
 int main(int argc, char* args[])
 {
-	// asd
-
 	printf("[%d] %s\n", argc, args[0]);
-	return(0);
 
+	Sect2_2::main();
+
+	return(0);
 }
