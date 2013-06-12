@@ -10,24 +10,24 @@
 
 namespace Sect2_2
 {
-	constexpr double square(double a)
+	double square(double a)
 	{
 		return a*a;
 	}
 
 	int main()
 	{
-		std::complex<double> z {1.1,2.3};
+		std::complex<double> z(1.1,2.3);
 
 		auto b = true;
 		if(b) std::cout << "yay\n";
 
 		std::cout << "pretty cool!\n";
 
-		const int namedconst {12};
+		const int namedconst = 12;
 		std::cout << namedconst << "\n";
 
-		constexpr double a1 = 1.4*square(namedconst);
+		double a1 = 1.4*square(namedconst);
 		std::cout << a1 << "\n";
 
 		return 0;
