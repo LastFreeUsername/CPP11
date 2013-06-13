@@ -10,7 +10,7 @@
 
 namespace Sect2_2
 {
-	constexpr double square(double a)
+	double square(double a)
 	{
 		return a*a;
 	}
