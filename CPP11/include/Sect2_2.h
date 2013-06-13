@@ -10,7 +10,9 @@
 
 namespace Sect2_2
 {
+	bool accept();
 	void main();
+
 }
 
 
