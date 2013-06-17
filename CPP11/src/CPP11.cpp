@@ -13,5 +13,7 @@ int main(int argc, char* args[])
 
 	Sect2_2::main();
 
+	Sect2_4::main();
+
 	return(0);
 }
